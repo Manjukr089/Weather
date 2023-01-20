@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.weatherApp{
+    background-image: url(https://media.istockphoto.com/id/1263562386/photo/beautifully-structured-thunderstorm-in-bulgarian-plains.jpg?b=1&s=170667a&w=0&k=20&c=glXgIvyECJ8Kex4EIbYFTlCYrSfOU-ciFaQRunhm_xU=);
+    /* background-image: url(./pic2.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#one {
+    background-color: black;
+    margin-top: -40px;
+    margin-left: 40px;
+    /* width: 100%; */
+    padding-left: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size:xx-large;
+}
+.location{
+    text-align: right;
+    padding: 50px 40px 0px 0px;
+}
+.location h3{
+    margin-top: 0;
+    color: aliceblue;
+    margin-right: 1200px;
+}
+.location h5{
+    margin-top: 0;
+    color: aliceblue;
+    margin-right: 1200px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px ;
+    margin-top: 80px;
+}
+.temp_information h2{
+    color: aliceblue;
+    font-size: 60px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    background-color: cornflowerblue;
+    /* color: white; */
+    font-size: 18px;
+    padding: 0px 30px;
+}
